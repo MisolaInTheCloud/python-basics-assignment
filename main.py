@@ -36,3 +36,17 @@ try:
         print("You are not eligible to vote.")
 except ValueError:
     print("Invalid input. Please enter a numeric value.")
+
+# Task 3: Loops
+
+# For loop: print numbers from 1 to 10
+print("For loop: Numbers from 1 to 10")
+for i in range(1, 11):
+    print(i)
+
+# While loop: print even numbers between 1 and 20
+print("While loop: Even numbers between 1 and 20")
+num = 2
+while num <= 20:
+    print(num)
+    num += 2
