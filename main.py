@@ -50,3 +50,16 @@ num = 2
 while num <= 20:
     print(num)
     num += 2
+
+# Task 4: Mini Challenge
+
+# Create a list of 5 fruits
+fruits = ["agbalumo", "watermelom", "berry", "mango", "orange"]
+
+# Loop through the list and print each fruit in uppercase
+# Skip "watermelon" using continue
+print("Fruits in uppercase (excluding 'watermelon'):")
+for fruit in fruits:
+    if fruit == "watermelon":
+        continue  # skip this iteration
+    print(fruit.upper())
