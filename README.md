@@ -1,47 +1,40 @@
-# python-basics-assignment
-# Task 1: Variables & Data Types
+# Python Basics Assignment
 
-# String
-name = "Alice"
-print("Value:", name, "| Type:", type(name))  # Output: Value: Alice | Type: <class 'str'>
+This is a beginner-level Python assignment covering the following core concepts:
 
-# Integer
-age = 30
-print("Value:", age, "| Type:", type(age))  # Output: Value: 30 | Type: <class 'int'>
+##  Objectives
+- Declare and use variables
+- Identify and use data types
+- Work with conditional statements
+- Use `for` and `while` loops
+- Practice basic list operations and control flow
 
-# Float
-height = 5.7
-print("Value:", height, "| Type:", type(height))  # Output: Value: 5.7 | Type: <class 'float'>
+##  Files
 
-# Boolean
-is_student = False
-print("Value:", is_student, "| Type:", type(is_student))  # Output: Value: False | Type: <class 'bool'>
+- `main.py` – Contains all solutions for the tasks
+- `README.md` – This file
 
-# List
-favorite_colors = ["blue", "green", "red"]
-print("Value:", favorite_colors, "| Type:", type(favorite_colors))  # Output: Value: ['blue', 'green', 'red'] | Type: <class 'list'>
+##  Tasks Summary
 
-# Task 2: Decision Making with if-elif-else
+### Task 1: Variables & Data Types
+- Declare variables of different types
+- Print their values and types
 
-user_age = int(input("Enter your age: "))
+### Task 2: User Input & Conditional Statements
+- Ask user for age and print voting eligibility
 
-if user_age < 13:
-    print("You are a child.")
-elif user_age < 20:
-    print("You are a teenager.")
-else:
-    print("You are an adult.")
+### Task 3: Loops
+- `for` loop: Print numbers from 1 to 10
+- `while` loop: Print even numbers from 1 to 20
 
-# Task 3: Looping with for
+### Task 4: Mini Challenge
+- Create a list of fruits
+- Print each in uppercase except "banana"
 
-fruits = ["apple", "banana", "mango", "grape", "pineapple"]
+##  How to Run
 
-for fruit in fruits:
-    print(fruit.upper())
+Make sure Python is installed on your machine. Then run:
 
-# Task 4: Looping with while
+```bash
+python main.py
 
-num = 1
-while num <= 5:
-    print("Current number:", num)
-    num += 1
